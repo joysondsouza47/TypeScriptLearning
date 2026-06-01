@@ -4,3 +4,7 @@ function greet(name: string): string {
 
 const message: string = greet("World");
 console.log(message);
+
+let firstname= "joyson";
+
+console.log(firstname);
