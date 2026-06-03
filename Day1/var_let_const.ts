@@ -53,11 +53,58 @@ age();
 
 // 2. value assignment
 
+/* 
 var age;                // Value assignment is not mandatory. 
 console.log(age);       // undefined
 
 let name;               // Value assignment is not mandatory. 
 console.log(name);      // undefined
 
-// const job;
-// console.log(job); 
+// const job;           // Value assignment is mandatory. 
+// console.log(job);    // Error: Missing initializer in `const` declaration
+
+const phone = 9945636877
+console.log(phone);      //  Works because value is assigned at declaration
+*/
+
+// 3. Re-declaration
+
+/* 
+var age3 = 20;
+var age3 = 30;
+
+console.log(age3);        // Allowed
+
+let name3 = "joysn"
+let name3 = "joyson"     
+
+console.log(name3);       // Error (Safer!)
+
+const job3 = "master"
+const job3 = "professor"   
+
+console.log(job3);       //  Error (Safer!) 
+*/
+
+// 4. Re-assignment
+
+/* 
+var age4 = 50;
+age4 = 60;        
+
+console.log(age4);     // Allowed - 60
+
+let name4 = "joyson ds"
+name4 = "joyson dsouza"
+
+console.log(name4);    // Allowed - joyson dsouza
+
+const job4 = "worker"
+job4 = "helper"
+
+console.log(job4);    // TypeError: Assignment to constant variable. 
+*/
+
+// 5. Hoisting ----- Variable Access Before Declaration
+//  var: Hoisted but initialized as undefined. 
+//  let & const: Hoisted but not initialized (cannot be used before declaration). 
