@@ -108,3 +108,16 @@ console.log(job4);    // TypeError: Assignment to constant variable.
 // 5. Hoisting ----- Variable Access Before Declaration
 //  var: Hoisted but initialized as undefined. 
 //  let & const: Hoisted but not initialized (cannot be used before declaration). 
+
+// console.log(age);
+// var age = 50;          // undefined
+
+// console.log(name);
+// let name = "joyson"    // Cannot access 'name' before initialization
+
+// console.log(job);
+// const job = "worker"      // Cannot access 'job' before initialization
+
+
+
+// done!
