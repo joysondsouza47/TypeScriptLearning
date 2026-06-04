@@ -67,3 +67,6 @@ function sum()
     let save = console.log(result);
 }
 sum()
+
+
+// done.
