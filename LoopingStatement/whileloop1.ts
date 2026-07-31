@@ -40,3 +40,33 @@ console.log(`factorial of ${num} is ${result}`);
 }
 
 factorial(5);
+
+//   Write a program to reverse a given number using a while loop.  
+
+
+function reverse(num:number):number{
+
+    let orgnum= Math.abs(num);
+
+let reverse = 0;
+
+// if(num<0){
+
+//     throw new Error("negative number")
+// }
+
+while(orgnum>0)
+{
+    let lastdigit = (orgnum%10);
+    reverse = (reverse*10) + lastdigit;
+    orgnum = Math.floor(orgnum/10); 
+}
+
+return num < 0 ? -reverse : reverse ;
+
+}
+
+
+
+
+console.log(reverse(-1234));
