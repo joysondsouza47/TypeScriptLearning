@@ -61,12 +61,8 @@ while(orgnum>0)
     reverse = (reverse*10) + lastdigit;
     orgnum = Math.floor(orgnum/10); 
 }
-
+console.log(`reverse of a given number (${num}) is : `)
 return num < 0 ? -reverse : reverse ;
-
 }
-
-
-
 
 console.log(reverse(-1234));
