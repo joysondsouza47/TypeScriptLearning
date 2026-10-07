@@ -64,4 +64,3 @@ else
 
 //console.log(name2);
 //let name2;  //cannot access 'name1' before initialization-
-//
