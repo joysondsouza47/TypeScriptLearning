@@ -126,3 +126,24 @@ function area1(a:string|number):string|number
 
 console.log(area1(12));
 console.log(area1("joyson"));
+
+// Write a TypeScript program that satisfies these requirements:
+// - Create a function called loginTest() that prints "Login Test Executed".
+// - Create another function called executeTest() that accepts a callback of type () => void.
+// - Inside executeTest(), print "Starting Test", invoke the callback, and then print "Test Completed".
+// - Call executeTest() and pass loginTest as its callback.
+
+
+function loginTest()
+{
+    console.log("Login Test Executed")
+}
+
+function executeTest(callback:() => void)
+{
+    console.log("Starting Test")  
+    callback();
+    console.log("Test Completed")  
+}
+
+executeTest(loginTest);
