@@ -132,3 +132,17 @@ const testCases = [
 
 let somee = testCases.some((testcase)=>"CHECKOUT"===testcase.toUpperCase());
 console.log(somee);
+
+
+let numbers7 = [10,50,30,70,90]
+
+console.log(...numbers7);
+
+
+function add5(numbers5:number,...numbers6:number[])
+{
+    console.log(numbers5);
+    console.log(numbers6);
+}
+
+add5(10,20,30,40,50,60);
