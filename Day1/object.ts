@@ -71,9 +71,9 @@ let arrobject =
         
     }
 ]
-console.log(arrobject[0].name);
-console.log(arrobject[1].name);
-console.log(arrobject[2].name);
+// console.log(arrobject[0].name);
+// console.log(arrobject[1].name);
+// console.log(arrobject[2].name);
 
 console.log(arrobject);
 
