@@ -41,4 +41,5 @@ result.name = "joysonn"
 console.log(result.name);
 
 result.ada = "joyson";
-console.log(result)
+console.log(result);
+//
