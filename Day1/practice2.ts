@@ -43,3 +43,4 @@ console.log(result.name);
 result.ada = "joyson";
 console.log(result);
 //
+//
